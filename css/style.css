@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+/* inizio header */
+
+header{
+    height: 650px;
+    background-color: lightblue;
+}
+
+/* header top */
+
+.header-top{
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom{
+    height: 85%;
+    background-color: blue;
+}
+
+header .bar{
+    width: 65%;
+    height: 60px;
+    background-color: goldenrod;
+}
+
+header .logo, header .login-button{
+    width: 20%;
+    height: 100%;
+    border: 3px solid black;
+    font-size: 30px;
+}
+
+header .links{
+    width: 60%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+header .logo{
+    align-items: center;
+    padding: 10px;
+}
+
+header .login-button{
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+header .links{
+    justify-content: center;
+    align-items: center;
+}
+
+header .links li{
+    padding: 3px 7px;
+    list-style-type: none;
+} 
+
+header .links a{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* header bottom */
+
+header .header-bottom .box{
+    width: 50%;
+    height: 85%;
+    background-color: pink;
+    border: 3px solid black;
+}
+
+header .header-bottom{
+    justify-content: center;
+    align-items: center;
+}
+
+/* fine header */
+
+
+
+
+/* inizio main */
+
+/* sezioni */
+main .section{
+    height: 650px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section .box{
+    width: 65%;
+    height: 85%;
+    border: 0.5px solid black;
+}
+
+.grey{
+    background-color: lightgray;
+}
+
+main .section.white .blue{
+    height: 100%;
+    width: 60%;
+    background-color: aqua;
+}
+
+main .section.white .pink{
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+}
+
+main .section.grey .pink{
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+}
+
+main .section.grey .blue{
+    height: 100%;
+    width: 60%;
+    background-color: aqua;
+}
+
+main .box > div{
+    border: 0.5px solid black;
+}
+
+
+/* sezione grande */
+main .section-big{
+    height: 1200px;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+main .section-big .box{
+    width: 65%;
+    height: 90%;
+    background-color: green;
+}
+
+/* fine sezioni */
+
+/* fine main */
+
+
+
+/* inizio footer */
+footer{
+    height: 600px;
+    background-color: black;
+}
+
+footer .footer-top{
+    height: 85%;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-bottom{
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 5px solid black;
+}
+
+/* footer top */
+footer .footer-top .box{
+    width: 65%;
+    height: 90%;
+    margin-bottom: 30px;
+}
+
+footer .footer-top .pink{
+    width: 30%;
+    height: 100%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+footer .footer-top .blue{
+    width: calc(70% / 4);
+    height: 100%;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+/* footer bottom */
+footer .footer-bottom .bar{
+    width: 65%;
+    height: 80%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .bar > div{
+    padding: 10px;
+    background-color: pink;
+}
+
+footer hr{
+    width: 65%;
+    margin: auto;
+}
