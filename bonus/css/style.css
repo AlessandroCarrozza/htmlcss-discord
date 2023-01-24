@@ -180,10 +180,29 @@ main .section{
     align-items: center;
 }
 
+main .section.white{
+    background-image: url("../img/wave.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 100% 100px;
+}
+
+main .section.grey{
+    background-image: url("../img/wave.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 100% 100px;
+} 
+
+
+
+main .section.white svg{
+    color: "red";
+}
+
 main .section .box{
     width: 60%;
     height: 85%;
-    padding-top: 40px;
 }
 
 .grey{
@@ -265,13 +284,12 @@ main .section-big h2{
 
 main .section-big span{
     color: white;
-    background-color:  #5865f2;
+    background-color: #5865f2;
     border-radius: 20px;
     padding: 12px 16px;
 }
 
 main .section-big span:hover{
-    background-color: #6c76e4;
     box-shadow: 2px 2px 15px #888888;
 }
 
@@ -387,7 +405,6 @@ footer{
 }
 
 .footer-bottom .register span:hover{
-    background-color: #6c76e4;
     box-shadow: 2px 2px 15px #888888;
 }
 
