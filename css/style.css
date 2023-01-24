@@ -164,6 +164,7 @@ main .section{
 main .section .box{
     width: 60%;
     height: 85%;
+    padding-top: 40px;
 }
 
 .grey{
