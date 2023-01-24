@@ -12,7 +12,7 @@ body{
     display: flex;
 }
 
-/* inizio header */
+/* ----- inizio header ------ */
 
 header{
     height: 650px;
@@ -94,65 +94,62 @@ header .links li a{
 
 /* header bottom */
 
-header .header-bottom .box{
+.header-bottom .box{
     width: 50%;
     height: 85%;
 }
 
-header .header-bottom{
+.header-bottom{
     justify-content: center;
     align-items: center;
 }
 
-header .header-bottom .box{
+.header-bottom .box{
     justify-content: center;
     align-items: center;
 }
 
-header .header-bottom .box > div{
+.header-bottom .box > div{
     text-align: center;
 }
 
-header .header-bottom h1{
+.header-bottom h1{
     font-size: 60px;
     padding-bottom: 40px;
     font-weight: 700;
     color: white;
 }
 
-header .header-bottom p{
+.header-bottom p{
     padding-bottom: 15px;
     font-size: 20px;
     color: white;
 }
 
-
-header .header-bottom span{
+.header-bottom span{
     padding: 10px 15px;
     border-radius: 20px;
     display: inline-block;
     margin: 0 7px 50px;
 }
 
-header .header-bottom .download{
+.header-bottom .download{
     color: black;
     background-color: white;
 }
 
-header .header-bottom .open-browser{
+.header-bottom .open-browser{
     background-color: black;
     color: white;
 }
 
-/* fine header */
+/* ------ fine header ------ */
 
 
 
 
 
-
-
-/* inizio main */
+/* ------- inizio main ------ */
 
 /* sezioni */
 
@@ -228,6 +225,9 @@ main .section-big .box{
     width: 60%;
     height: 90%;
     text-align: center;
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
 }
 
 main .section-big h1{
@@ -250,71 +250,121 @@ main .section-big span{
     border-radius: 20px;
     padding: 12px 16px;
 }
+
+main .section-big a{
+    text-decoration: none;
+    color: white;
+}
 /* fine sezioni */
 
-/* fine main */
+/* ------- fine main -------- */
 
 
 
-/* inizio footer */
+/* ------- inizio footer ------- */
 footer{
     height: 600px;
-    background-color: black;
+    background-color: #23272a;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 
-footer .footer-top{
+.footer-top{
     height: 85%;
     width: 100%;
-    background-color: black;
+    background-color: #23272a;
     justify-content: center;
     align-items: center;
 }
 
-footer .footer-bottom{
+.footer-bottom{
     height: 15%;
     width: 100%;
     justify-content: center;
     align-items: flex-end;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #23272a;
 }
 
 /* footer top */
-footer .footer-top .box{
+.footer-top .box{
     width: 60%;
     height: 90%;
     margin-bottom: 30px;
 }
 
-footer .footer-top .pink{
+.footer-top .social-column{
     width: 30%;
     height: 100%;
-    background-color: pink;
-    border: 1px solid black;
 }
 
-footer .footer-top .blue{
+.footer-top .socials i{
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.footer-top .mid-column{
     width: calc(70% / 4);
     height: 100%;
-    background-color: blue;
-    border: 1px solid black;
+    padding-left: 50px;
 }
 
+.footer-top select{
+    border: none;
+    background-color: #23272a;
+    color: white;
+}
+
+.footer-top .language select, .footer-top .language img{
+    vertical-align: middle;
+    margin: 20px 0;
+}
+
+.footer-top .social-column h1{
+    font-size: 40px;
+    line-height: 40px;
+    color: #7286d5;
+}
+
+.footer-top .mid-column h4{
+    color: #7286d5;
+}
+
+.footer-top .mid-column a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 7px 0;
+}
 /* footer bottom */
-footer .footer-bottom .bar{
+.footer-bottom .bar{
     width: 60%;
     height: 80%;
-    background-color: aquamarine;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
 
+.footer-bottom .register a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom .register span{
+    color: white;
+    background-color:  #5865f2;
+    border-radius: 20px;
+    padding: 12px 16px;
+}
+
 footer .bar > div{
     padding: 10px;
-    background-color: pink;
 }
 
 footer hr{
     width: 60%;
     margin: auto;
+    border-color: #7286d5;
 }
+
+/* ---------- fine footer -------- */
