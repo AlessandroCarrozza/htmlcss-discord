@@ -170,10 +170,10 @@ main .section .box{
 }
 
 .grey{
-    background-color: lightgray;
+    background-color: #f5f5f5;
 }
 
-main .section.white .big-column{
+main .section.white .img-column{
     height: 100%;
     width: 60%;
 }
@@ -191,7 +191,7 @@ main .section.grey .mid-column{
     margin-top: 30px;
 }
 
-main .section.grey .big-column{
+main .section.grey .img-column{
     height: 100%;
     width: 60%;
 }
@@ -219,7 +219,7 @@ main .section.white img{
 main .section-big{
     height: 1200px;
     width: 100%;
-    background-color: lightgray;
+    background-color: #f5f5f5;
     justify-content: center;
     align-items: center;
 }
@@ -227,9 +227,29 @@ main .section-big{
 main .section-big .box{
     width: 60%;
     height: 90%;
-    background-color: green;
+    text-align: center;
 }
 
+main .section-big h1{
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+main .section-big p{
+    font-size: 18px;
+}
+
+main .section-big h2{
+    font-size: 30px;
+    padding: 50px 0;
+}
+
+main .section-big span{
+    color: white;
+    background-color:  #5865f2;
+    border-radius: 20px;
+    padding: 12px 16px;
+}
 /* fine sezioni */
 
 /* fine main */
