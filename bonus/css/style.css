@@ -180,23 +180,17 @@ main .section{
     align-items: center;
 }
 
-main .section.white{
-    background-image: url("../img/wave.svg");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 100% 100px;
+.wave-flip{
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
 }
 
-main .section.grey{
-    background-image: url("../img/wave.svg");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 100% 100px;
-} 
-
-
-main .section.white svg{
-    color: "red";
+.wave{
+    display: block;
 }
 
 main .section .box{
