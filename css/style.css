@@ -16,10 +16,10 @@ body{
 
 header{
     height: 650px;
-    background-color: lightblue;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+
 
 /* header top */
 
@@ -67,7 +67,7 @@ header .login-button span{
     border-radius: 18px;
 }
 
-.login-button a{
+header .login-button a{
     text-decoration: none;
     margin-bottom: 10px;
     color: black;
@@ -91,6 +91,7 @@ header .links li a{
     font-weight: 600px;
 }
 
+
 /* header bottom */
 
 header .header-bottom .box{
@@ -103,47 +104,50 @@ header .header-bottom{
     align-items: center;
 }
 
-.header-bottom .box{
+header .header-bottom .box{
     justify-content: center;
     align-items: center;
 }
 
-.header-bottom .box > div{
+header .header-bottom .box > div{
     text-align: center;
 }
 
-.header-bottom h1{
+header .header-bottom h1{
     font-size: 60px;
     padding-bottom: 40px;
     font-weight: 700;
     color: white;
 }
 
-.header-bottom p{
+header .header-bottom p{
     padding-bottom: 15px;
     font-size: 20px;
     color: white;
 }
 
 
-.header-bottom span{
+header .header-bottom span{
     padding: 10px 15px;
     border-radius: 20px;
     display: inline-block;
     margin: 0 7px 50px;
 }
 
-.header-bottom .download{
+header .header-bottom .download{
     color: black;
     background-color: white;
 }
 
-.header-bottom .open-browser{
+header .header-bottom .open-browser{
     background-color: black;
     color: white;
 }
 
 /* fine header */
+
+
+
 
 
 
@@ -161,43 +165,55 @@ main .section{
 }
 
 main .section .box{
-    width: 65%;
+    width: 60%;
     height: 85%;
-    border: 0.5px solid black;
 }
 
 .grey{
     background-color: lightgray;
 }
 
-main .section.white .blue{
+main .section.white .big-column{
     height: 100%;
     width: 60%;
-    background-color: aqua;
 }
 
-main .section.white .pink{
+main .section.white .mid-column{
     height: 100%;
     width: 40%;
-    background-color: pink;
+    padding-top: 30px;
 }
 
-main .section.grey .pink{
+main .section.grey .mid-column{
     height: 100%;
     width: 40%;
-    background-color: pink;
+    padding-right: 50px;
+    margin-top: 30px;
 }
 
-main .section.grey .blue{
+main .section.grey .big-column{
     height: 100%;
     width: 60%;
-    background-color: aqua;
 }
 
-main .box > div{
-    border: 0.5px solid black;
+main .mid-column h1{
+    font-size: 60px;
+    line-height: 60px;
 }
 
+main .mid-column p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+main .section.grey img{
+    float: right; 
+}
+
+main .section.white img{
+    float: left; 
+}
 
 /* sezione grande */
 main .section-big{
@@ -209,7 +225,7 @@ main .section-big{
 }
 
 main .section-big .box{
-    width: 65%;
+    width: 60%;
     height: 90%;
     background-color: green;
 }
@@ -244,7 +260,7 @@ footer .footer-bottom{
 
 /* footer top */
 footer .footer-top .box{
-    width: 65%;
+    width: 60%;
     height: 90%;
     margin-bottom: 30px;
 }
@@ -265,7 +281,7 @@ footer .footer-top .blue{
 
 /* footer bottom */
 footer .footer-bottom .bar{
-    width: 65%;
+    width: 60%;
     height: 80%;
     background-color: aquamarine;
     justify-content: center;
@@ -279,6 +295,6 @@ footer .bar > div{
 }
 
 footer hr{
-    width: 65%;
+    width: 60%;
     margin: auto;
 }
