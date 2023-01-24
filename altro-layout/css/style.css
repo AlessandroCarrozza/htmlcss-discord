@@ -16,7 +16,7 @@ body{
 
 header{
     height: 650px;
-    background-image: url(../img/jumbo.png);
+    background-color: #23272a;
     background-size: cover;
 }
 
@@ -114,14 +114,8 @@ header .links li a:hover{
 }
 
 .header-bottom .box{
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
-
-.header-bottom .box > div{
-    text-align: center;
-}
-
 .header-bottom h1{
     font-size: 60px;
     padding-bottom: 40px;
@@ -139,167 +133,53 @@ header .links li a:hover{
     padding: 10px 15px;
     border-radius: 20px;
     display: inline-block;
-    margin: 0 7px 50px;
+    margin: 0 0 50px;
+    color: white;
+    background-color: #5865f2;
 }
 
 .header-bottom .download:hover{
-    color: #5865f2;
     box-shadow: 2px 2px 15px #888888;
-}
-
-.header-bottom .open-browser:hover{
-    background-color: #23272a;
-    box-shadow: 2px 2px 15px #888888;
-}
-
-.header-bottom .download{
-    color: black;
-    background-color: white;
-}
-
-.header-bottom .open-browser{
-    background-color: black;
-    color: white;
 }
 
 /* ------ fine header ------ */
 
 
 
+/* ------ inizio mai -------- */
 
+main{
+    height: 700px;
+}
 
-/* ------- inizio main ------ */
-
-/* sezioni */
-
-main .section{
-    height: 650px;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
+main .box{
+    height: 80%;
+    width: 80%;
+    margin: 80px auto;
+    justify-content: space-around;
     align-items: center;
 }
 
-main .section.white{
-    background-image: url("../img/wave.svg");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 100% 100px;
-}
-
-main .section.grey{
-    background-image: url("../img/wave.svg");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 100% 100px;
-} 
-
-
-main .section.white svg{
-    color: "red";
-}
-
-main .section .box{
-    width: 60%;
-    height: 85%;
-}
-
-.grey{
-    background-color: #f5f5f5;
-}
-
-main .section.white .img-column{
-    height: 100%;
-    width: 60%;
-}
-
-main .section.white .mid-column{
-    height: 100%;
-    width: 40%;
-    padding-top: 30px;
-}
-
-main .section.grey .mid-column{
-    height: 100%;
-    width: 40%;
-    padding-right: 50px;
-    margin-top: 30px;
-}
-
-main .section.grey .img-column{
-    height: 100%;
-    width: 60%;
-}
-
-main .mid-column h1{
-    font-size: 60px;
-    line-height: 60px;
-}
-
-main .mid-column p{
-    font-size: 18px;
-    line-height: 25px;
-    margin-top: 30px;
-}
-
-main .section.grey img{
-    float: right; 
-}
-
-main .section.white img{
-    float: left; 
-}
-
-/* sezione grande */
-main .section-big{
-    height: 1200px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-main .section-big .box{
-    width: 60%;
-    height: 90%;
+main .column{
+    width: 30%;
+    height: 80%;
     text-align: center;
-    background-image: url("../img/stars.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 80%;
+    background-color: #23272a;
+    padding-top: 35px;
+    border-radius: 5%;
 }
 
-main .section-big h1{
-    font-size: 50px;
-    padding-bottom: 25px;
-}
-
-main .section-big p{
-    font-size: 18px;
-}
-
-main .section-big h2{
-    font-size: 30px;
-    padding: 50px 0;
-}
-
-main .section-big span{
+main .column h1{
     color: white;
+}
+
+main .column span{
+    padding: 12px 15px;
     background-color: #5865f2;
-    border-radius: 20px;
-    padding: 12px 16px;
-}
-
-main .section-big span:hover{
-    box-shadow: 2px 2px 15px #888888;
-}
-
-main .section-big a{
-    text-decoration: none;
     color: white;
+    border-radius: 20px;
 }
-/* fine sezioni */
-
-/* ------- fine main -------- */
-
+/* --------- fine main --------- */
 
 
 /* ------- inizio footer ------- */
