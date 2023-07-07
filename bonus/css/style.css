@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
 /* ----- inizio header ------ */
 
-header{
+header {
     height: 650px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -23,72 +23,74 @@ header{
 
 /* header top */
 
-.header-top{
+.header-top {
     height: 15%;
     justify-content: center;
     align-items: center;
 }
 
-.header-bottom{
+.header-bottom {
     height: 85%;
 }
 
-header .bar{
+header .bar {
     width: 75%;
     height: 60px;
 }
 
-header .logo, header .login-button{
+header .logo,
+header .login-button {
     width: 20%;
-    height: 100%;;
+    height: 100%;
+    ;
     font-size: 30px;
 }
 
-header .links{
+header .links {
     width: 60%;
     height: 100%;
 }
 
-header .logo{
+header .logo {
     align-items: center;
     padding: 10px;
 }
 
-header .login-button{
+header .login-button {
     align-items: center;
     justify-content: flex-end;
     padding: 10px;
 }
 
-header .login-button span{
+header .login-button span {
     font-size: 14px;
     background-color: white;
     padding: 10px 18px;
     border-radius: 18px;
 }
 
-header .login-button span:hover{
+header .login-button span:hover {
     color: #5865f2;
     box-shadow: 2px 2px 15px #888888;
 }
 
-header .login-button a{
+header .login-button a {
     text-decoration: none;
     margin-bottom: 3px;
     color: black;
 }
 
-header .links{
+header .links {
     justify-content: center;
     align-items: center;
 }
 
-header .links li{
+header .links li {
     padding: 3px 5px;
     list-style-type: none;
-} 
+}
 
-header .links li a{
+header .links li a {
     padding: 10px 20px;
     font-size: 17px;
     text-decoration: none;
@@ -97,67 +99,67 @@ header .links li a{
 }
 
 
-header .links li a:hover{
+header .links li a:hover {
     text-decoration: underline;
 }
 
 /* header bottom */
 
-.header-bottom .box{
+.header-bottom .box {
     width: 50%;
     height: 85%;
 }
 
-.header-bottom{
+.header-bottom {
     justify-content: center;
     align-items: center;
 }
 
-.header-bottom .box{
+.header-bottom .box {
     justify-content: center;
     align-items: center;
 }
 
-.header-bottom .box > div{
+.header-bottom .box>div {
     text-align: center;
 }
 
-.header-bottom h1{
+.header-bottom h1 {
     font-size: 60px;
     padding-bottom: 40px;
     font-weight: 700;
     color: white;
 }
 
-.header-bottom p{
+.header-bottom p {
     padding-bottom: 15px;
     font-size: 20px;
     color: white;
 }
 
-.header-bottom span{
+.header-bottom span {
     padding: 10px 15px;
     border-radius: 20px;
     display: inline-block;
     margin: 0 7px 50px;
 }
 
-.header-bottom .download:hover{
+.header-bottom .download:hover {
     color: #5865f2;
     box-shadow: 2px 2px 15px #888888;
 }
 
-.header-bottom .open-browser:hover{
+.header-bottom .open-browser:hover {
     background-color: #23272a;
     box-shadow: 2px 2px 15px #888888;
 }
 
-.header-bottom .download{
+.header-bottom .download {
     color: black;
     background-color: white;
 }
 
-.header-bottom .open-browser{
+.header-bottom .open-browser {
     background-color: black;
     color: white;
 }
@@ -172,7 +174,7 @@ header .links li a:hover{
 
 /* sezioni */
 
-main .section{
+main .section {
     height: 650px;
     width: 100%;
     margin: auto;
@@ -180,7 +182,7 @@ main .section{
     align-items: center;
 }
 
-.wave-flip{
+.wave-flip {
     -moz-transform: scaleY(-1);
     -o-transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
@@ -189,70 +191,71 @@ main .section{
     -ms-filter: "FlipV";
 }
 
-.wave{
-    display: block;
+.wave-container {
+    height: 200px;
+    background-image: url("../img/wave.svg");
 }
 
-main .section .box{
+main .section .box {
     width: 60%;
     height: 85%;
 }
 
-.grey{
+.grey {
     background-color: #f5f5f5;
 }
 
-main .section.white .img-column{
+main .section.white .img-column {
     height: 100%;
     width: 60%;
 }
 
-main .section.white .mid-column{
+main .section.white .mid-column {
     height: 100%;
     width: 40%;
     padding-top: 30px;
 }
 
-main .section.grey .mid-column{
+main .section.grey .mid-column {
     height: 100%;
     width: 40%;
     padding-right: 50px;
     margin-top: 30px;
 }
 
-main .section.grey .img-column{
+main .section.grey .img-column {
     height: 100%;
     width: 60%;
 }
 
-main .mid-column h1{
+main .mid-column h1 {
     font-size: 60px;
     line-height: 60px;
 }
 
-main .mid-column p{
+main .mid-column p {
     font-size: 18px;
     line-height: 25px;
     margin-top: 30px;
 }
 
-main .section.grey img{
-    float: right; 
+main .section.grey img {
+    float: right;
 }
 
-main .section.white img{
-    float: left; 
+main .section.white img {
+    float: left;
 }
 
 /* sezione grande */
-main .section-big{
+main .section-big {
     height: 1200px;
     width: 100%;
     justify-content: center;
     align-items: center;
 }
 
-main .section-big .box{
+main .section-big .box {
     width: 60%;
     height: 90%;
     text-align: center;
@@ -261,35 +264,36 @@ main .section-big .box{
     background-position: 50% 80%;
 }
 
-main .section-big h1{
+main .section-big h1 {
     font-size: 50px;
     padding-bottom: 25px;
 }
 
-main .section-big p{
+main .section-big p {
     font-size: 18px;
 }
 
-main .section-big h2{
+main .section-big h2 {
     font-size: 30px;
     padding: 50px 0;
 }
 
-main .section-big span{
+main .section-big span {
     color: white;
     background-color: #5865f2;
     border-radius: 20px;
     padding: 12px 16px;
 }
 
-main .section-big span:hover{
+main .section-big span:hover {
     box-shadow: 2px 2px 15px #888888;
 }
 
-main .section-big a{
+main .section-big a {
     text-decoration: none;
     color: white;
 }
+
 /* fine sezioni */
 
 /* ------- fine main -------- */
@@ -297,14 +301,14 @@ main .section-big a{
 
 
 /* ------- inizio footer ------- */
-footer{
+footer {
     height: 600px;
     background-color: #23272a;
     padding-top: 80px;
     padding-bottom: 60px;
 }
 
-.footer-top{
+.footer-top {
     height: 85%;
     width: 100%;
     background-color: #23272a;
@@ -312,7 +316,7 @@ footer{
     align-items: center;
 }
 
-.footer-bottom{
+.footer-bottom {
     height: 15%;
     width: 100%;
     justify-content: center;
@@ -321,63 +325,64 @@ footer{
 }
 
 /* footer top */
-.footer-top .box{
+.footer-top .box {
     width: 60%;
     height: 90%;
     margin-bottom: 30px;
 }
 
-.footer-top .social-column{
+.footer-top .social-column {
     width: 30%;
     height: 100%;
 }
 
-.footer-top .socials i{
+.footer-top .socials i {
     color: white;
     font-size: 20px;
     padding-right: 20px;
 }
 
-.footer-top .mid-column{
+.footer-top .mid-column {
     width: calc(70% / 4);
     height: 100%;
     padding-left: 50px;
 }
 
-.footer-top select{
+.footer-top select {
     border: none;
     background-color: #23272a;
     color: white;
 }
 
-.footer-top .language select, .footer-top .language img{
+.footer-top .language select,
+.footer-top .language img {
     vertical-align: middle;
     margin: 20px 0;
 }
 
-.footer-top .social-column h1{
+.footer-top .social-column h1 {
     font-size: 40px;
     line-height: 40px;
     color: #7286d5;
 }
 
-.footer-top .mid-column h4{
+.footer-top .mid-column h4 {
     color: #7286d5;
 }
 
-.footer-top .mid-column a{
+.footer-top .mid-column a {
     display: block;
     text-decoration: none;
     color: white;
     padding: 7px 0;
 }
 
-.footer-top .mid-column a:hover{
+.footer-top .mid-column a:hover {
     text-decoration: underline;
 }
 
 /* footer bottom */
-.footer-bottom .bar{
+.footer-bottom .bar {
     width: 60%;
     height: 80%;
     justify-content: center;
@@ -385,27 +390,27 @@ footer{
     justify-content: space-between;
 }
 
-.footer-bottom .register a{
+.footer-bottom .register a {
     text-decoration: none;
     color: white;
 }
 
-.footer-bottom .register span{
+.footer-bottom .register span {
     color: white;
-    background-color:  #5865f2;
+    background-color: #5865f2;
     border-radius: 20px;
     padding: 12px 16px;
 }
 
-.footer-bottom .register span:hover{
+.footer-bottom .register span:hover {
     box-shadow: 2px 2px 15px #888888;
 }
 
-footer .bar > div{
+footer .bar>div {
     padding: 10px;
 }
 
-footer hr{
+footer hr {
     width: 60%;
     margin: auto;
     border-color: #7286d5;
